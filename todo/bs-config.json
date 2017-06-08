@@ -1,0 +1,14 @@
+{
+    "port": 8000,
+    "host": "http://192.168.33.180/",
+    "server": { "baseDir": "./" },
+    "ui": {
+        "port": 8001,
+        "host": "http://192.168.33.180/"
+    },
+    "files": "**/*",
+    "watchOptions": {
+        "usePolling": true
+    },
+    "server": true
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/classlist-polyfill/src/index.js"></script>
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.min.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="app/systemjs.config.js"></script>
+    <script>
+    System.import('app/main.js').catch(function(err){ console.error(err); });
+    </script>
+</head>
+<body>
+    <todo-app>Angular Placeholder</todo-app>
+</body>
+</html>
